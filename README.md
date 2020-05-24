@@ -16,7 +16,7 @@ A Danish level crossing without booms typically has a red flashing light only to
 
 If the allowed speed is more than 75 km/h, an unorder signal (Uordenssignal in Danish) is show next to the track. This signal has two fixed yellow lights when the crossing _isn't_ protected; this light is turned off when the warning lights are flashing.
 
-Since 1986 the unorder signal has had an additional flashing white light to tell the train driver that the crossing is secured. This light is turned on along with the red flashing lights facing the road.
+Since 1986 the unorder signal has had an additional white flashing light to tell the train driver that the crossing is secured. This light is turned on along with the red flashing lights facing the road.
 
 All these light combinations can be created with this program. It will turn the LEDs slowly on and off, and it will ensure that a flash sequence is completed before changing state even if the input is turned off in the middle of a flash.
 
