@@ -8,13 +8,15 @@ With this program low cost has been the most important objective. I have other p
 
 The program allows direct connection of one or more LEDs (using proper resistors) to the PWM outputs of the Arduino. Uno/Nano has six such outputs, but the exact number varies from model to model. On Uno/Nano pin 3, 5, 6, 9, 10, and 11 can be used for PWM.
 
+An example of the library in function can be [found on Youtube](https://youtu.be/joidNVNN0SA).
+
 ## Danish level crossings
 
 A Danish level crossing without booms typically has a red flashing light only to warn people when a train is approaching.
 
 If the allowed speed is more than 75 km/h, an unorder signal (Uordenssignal in Danish) is show next to the track. This signal has two fixed yellow lights when the crossing _isn't_ protected; this light is turned off when the warning lights are flashing.
 
-Since 1986 the unorder signal has had an additional fixed white light to tell the train driver that the crossing is secured.
+Since 1986 the unorder signal has had an additional flashing white light to tell the train driver that the crossing is secured. This light is turned on along with the red flashing lights facing the road.
 
 All these light combinations can be created with this program. It will turn the LEDs slowly on and off, and it will ensure that a flash sequence is completed before changing state even if the input is turned off in the middle of a flash.
 
